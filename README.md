@@ -13,22 +13,10 @@ jQuery adalah library JavaScript yang mempermudah penulisan kode untuk mengatur 
 
 JavaScript adalah bahasa pemrograman, sedangkan jQuery adalah library yang dibuat menggunakan JavaScript. JavaScript bisa digunakan secara langsung, sedangkan jQuery perlu dimuat terlebih dahulu. jQuery membuat beberapa fungsi menjadi lebih mudah ditulis dengan kode yang lebih singkat.
 
-### 4. Output JavaScript
 
-Hasil program setelah nama dan NIM dimasukkan.
 
-![Output Nomor 4](screenshots/output-soal1.png)
+<img width="1920" height="1080" alt="Screenshot 2026-10-26 115816" src="https://github.com/user-attachments/assets/97229b6c-9def-42fa-9839-5d42ecd8bed6" />
 
-### 5. Output jQuery
+<img width="1920" height="1080" alt="Screenshot 2026-10-26 115855" src="https://github.com/user-attachments/assets/4686eccc-69d5-442b-9ba6-46238eb8fe11" />
 
-Hasil program saat kotak berubah warna.
 
-![Output warna ungu](screenshots/output-soal2-ungu.png)
-
-Hasil program saat kotak disembunyikan.
-
-![Output kotak disembunyikan](screenshots/output-soal2-sembunyi.png)
-
-Hasil program saat kotak ditampilkan kembali.
-
-![Output kotak ditampilkan](screenshots/output-soal2-tampil.png)
