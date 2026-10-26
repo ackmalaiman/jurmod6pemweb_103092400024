@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 280px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #eff7ff;
+}
+
+h2 {
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 18px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px;
+    margin: 3px;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+#ungu {
+    background-color: #7938e8;
+    color: white;
+}
+
+#biru {
+    background-color: #2864ed;
+    color: white;
+}
+
+#hijau {
+    background-color: #167d42;
+    color: white;
+}
+
+#kotak {
+    width: 104px;
+    height: 104px;
+    margin: 15px auto;
+    background-color: #167d42;
+    border: 2px solid #333;
+    border-radius: 7px;
+}
+
+.tombol-kotak {
+    margin-top: 12px;
+}
+
+.tombol-kotak button {
+    background-color: #eee;
+    color: #333;
+}
+
+p {
+    font-size: 8px;
+    margin: 7px 0;
+}

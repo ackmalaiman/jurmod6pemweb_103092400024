@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NIM_Soal2</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Bermain dengan Warna</h2>
+
+        <div class="tombol-warna">
+            <button id="ungu">Ungu</button>
+            <button id="biru">Biru</button>
+            <button id="hijau">Hijau</button>
+        </div>
+
+        <div id="kotak"></div>
+
+        <div class="tombol-kotak">
+            <button id="sembunyi">Sembunyikan Kotak</button>
+            <button id="tampil">Tampilkan Kotak</button>
+        </div>
+
+        <p>Klik tombol warna untuk mengubah warna kotak</p>
+        <p>Gunakan tombol Sembunyikan dan Tampilkan untuk menyembunyikan dan menampilkan kotak</p>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#ungu").click(function() {
+                $("#kotak").css("background-color", "#7938e8");
+            });
+
+            $("#biru").click(function() {
+                $("#kotak").css("background-color", "#2864ed");
+            });
+
+            $("#hijau").click(function() {
+                $("#kotak").css("background-color", "#167d42");
+            });
+
+            $("#sembunyi").click(function() {
+                $("#kotak").hide();
+            });
+
+            $("#tampil").click(function() {
+                $("#kotak").show();
+            });
+        });
+    </script>
+</body>
+</html>
